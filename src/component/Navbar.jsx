@@ -14,7 +14,7 @@ export default function Navbar(){
     return(
         <div>
         <div class="flex justify-between relative container mx-auto p-6 border-b-8 border-blue-500">
-             <Link  to="/" class="w-28 p-5"><img src="./image/urobach-logo.jpg" alt="logo" /></Link>
+             <Link  to="/" class="w-28 p-5"><img src="./src/image/urobach-logo.jpg" alt="logo" /></Link>
           <nav class="hidden md:flex space-x-8 p-8">
              <Link class="hover:text-blue-400 text-xl font-bold" to="/about">About</Link>
              <Link class="hover:text-blue-400 text-xl font-bold" to="/services">Services</Link>
