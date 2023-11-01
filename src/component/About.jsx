@@ -1,4 +1,5 @@
 import React from "react";
+import bgImg from "../assets/images/pexels-andrea-piacquadio-3771045.jpg"
 
 export default function About(){
     return(
@@ -15,7 +16,7 @@ export default function About(){
               </p>
             </div>
             <div class="rounded baseline md:w-1/2" >
-                <img class="rounded-lg pb-5 md:rounded" src="src/image/pexels-andrea-piacquadio-3771045.jpg" alt="image" />
+                <img class="rounded-lg pb-5 md:rounded" src={bgImg} alt="image" />
             </div>
           </div>
          </section>
